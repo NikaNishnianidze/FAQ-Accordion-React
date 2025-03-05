@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How many team members can I invite?",
+    "answer": "You can invite as much as you want"
+  },
+  {
+    "question": "What is the maximum file upload size?",
+    "answer": "No more than 2GB. All files must fit"
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "Press reset password button"
+  },
+  {
+    "question": "Can I cancel my subscription?",
+    "answer": "Yes you can cancel your subscription"
+  },
+  {
+    "question": "Do you provide additional support??",
+    "answer": "Yes we provide addtional support service"
+  }
+]
