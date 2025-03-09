@@ -6,7 +6,6 @@ import Question from "./components/question/Question";
 import shadowImage from "../public/assets/bg-pattern-mobile.svg";
 import questions from "./questions.json";
 import boxImage from "../public/assets/illustration-box-desktop.svg";
-import desktopBackground from "../public/assets/bg-pattern-desktop.svg";
 
 function App() {
   const [active, setActive] = useState(null);
@@ -20,11 +19,7 @@ function App() {
             alt="mobile illu"
             className="mobile-image"
           />
-          <img
-            src={illustrationDesktop}
-            alt="desktop illu"
-            className="desktop-image"
-          />
+
           <img src={shadowImage} alt="shadow effect" className="shadow" />
           <img src={boxImage} alt="box image" className="box" />
         </div>

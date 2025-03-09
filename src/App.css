@@ -32,10 +32,6 @@ h1 {
   width: 237px;
 }
 
-.desktop-image {
-  display: none;
-}
-
 .shadow {
   position: absolute;
   top: -3px;
@@ -52,9 +48,10 @@ h1 {
     width: 920px;
     justify-content: flex-end;
     padding: 65px 95px 83px 0;
-    background-image: url(../public/assets/bg-pattern-desktop.svg);
+    background-image: url(../public/assets/bg-pattern-desktop.svg),
+      url(../public/assets/illustration-woman-online-desktop.svg);
     background-repeat: no-repeat;
-    background-position: -577px -302px;
+    background-position: -577px -302px, -90px 53px;
   }
 
   .mobile-image {
@@ -80,6 +77,6 @@ h1 {
     display: block;
     position: absolute;
     top: 205px;
-    left: -119px;
+    left: -96px;
   }
 }
